@@ -34,7 +34,14 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
 
 # Keystore files
 *.jks
+
+*.iml
+.idea/*
+!.idea/inspectionProfiles
+!.idea/codeStyleSettings.xml
+.DS_Store
+/captures
+.mdicons
