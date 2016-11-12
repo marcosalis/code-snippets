@@ -1,5 +1,6 @@
 package com.github.marcosalis.training.snippets.concurrency;
 
+@SuppressWarnings("unused")
 public class ThreadInterferenceExample {
 
     private int c = 0;
