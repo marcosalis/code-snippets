@@ -24,7 +24,7 @@ public class ReorderingExample {
         B = 1;
     }
 
-    // this is executed after assignmentFirst() in thread 2
+    // this is executed in thread 2
     private void assignmentLast() {
         // t3
         int r1 = B;

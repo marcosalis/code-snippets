@@ -38,6 +38,9 @@ public class NullabilityAnnotationsDemo {
             this.myObject = myObject;
         }
 
+        /**
+         * Prints on the standard output the class name of the passed object.
+         */
         public void doSomethingElse() {
             new C().doSomeOtherStuff(myObject);
         }
