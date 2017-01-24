@@ -8,7 +8,7 @@ import java.util.List;
  * Do NOT do this!!
  */
 @SuppressWarnings("WeakerAccess, unused")
-public abstract class SolidKebabHouse {
+public abstract class SOLIDKebabHouse {
 
     // 1- Single Responsibility Principle violation
 
@@ -93,7 +93,7 @@ public abstract class SolidKebabHouse {
 
     public final CardPaymentProvider paymentProvider = new CardPaymentProvider();
 
-    public SolidKebabHouse() {
+    public SOLIDKebabHouse() {
     }
 
 }
